@@ -1,0 +1,90 @@
+J48 Pruned Tree
+---------------
+
+YT_views <= 1085940: L
+
+YT_views > 1085940
+|   YT_views <= 7030130
+|   |   starpower <= 164.8
+|   |   |   YT_dislikes <= 1240
+|   |   |   |   YT_views <= 4661530
+|   |   |   |   |   RT_critic_cmt <= 1.20588
+|   |   |   |   |   |   RT_critic_score <= 17
+|   |   |   |   |   |   |   RT_critic_score <= 5
+|   |   |   |   |   |   |   |   YT_dislikes <= 762: K
+|   |   |   |   |   |   |   |   YT_dislikes > 762: L
+|   |   |   |   |   |   |   RT_critic_score > 5: L
+|   |   |   |   |   |   RT_critic_score > 17: K
+|   |   |   |   |   RT_critic_cmt > 1.20588
+|   |   |   |   |   |   twitter_score <= 1.676
+|   |   |   |   |   |   |   RT_audience_cmt <= 1.46575: J
+|   |   |   |   |   |   |   RT_audience_cmt > 1.46575: L
+|   |   |   |   |   |   twitter_score > 1.676
+|   |   |   |   |   |   |   RT_critic_score <= 71
+|   |   |   |   |   |   |   |   YT_views <= 3548120
+|   |   |   |   |   |   |   |   |   YT_views <= 1688880
+|   |   |   |   |   |   |   |   |   |   RT_audience_score <= 56: L
+|   |   |   |   |   |   |   |   |   |   RT_audience_score > 56: J
+|   |   |   |   |   |   |   |   |   YT_views > 1688880
+|   |   |   |   |   |   |   |   |   |   YT_views <= 2342340: L
+|   |   |   |   |   |   |   |   |   |   YT_views > 2342340: K
+|   |   |   |   |   |   |   |   YT_views > 3548120: J
+|   |   |   |   |   |   |   RT_critic_score > 71
+|   |   |   |   |   |   |   |   starpower <= 11.1: L
+|   |   |   |   |   |   |   |   starpower > 11.1
+|   |   |   |   |   |   |   |   |   RT_audience_score <= 64: L
+|   |   |   |   |   |   |   |   |   RT_audience_score > 64: K
+|   |   |   |   YT_views > 4661530
+|   |   |   |   |   RT_audience_score <= 47: J
+|   |   |   |   |   RT_audience_score > 47: K
+|   |   |   YT_dislikes > 1240: L
+|   |   starpower > 164.8
+|   |   |   YT_views <= 2579900
+|   |   |   |   RT_critic_score <= 36: K
+|   |   |   |   RT_critic_score > 36: L
+|   |   |   YT_views > 2579900
+|   |   |   |   YT_cmt_score <= 1.59438: K
+|   |   |   |   YT_cmt_score > 1.59438
+|   |   |   |   |   twitter_score <= 2.011: J
+|   |   |   |   |   twitter_score > 2.011: I
+|   YT_views > 7030130
+|   |   starpower <= 313.1
+|   |   |   YT_cmt_score <= 1.65132
+|   |   |   |   starpower <= 41.1
+|   |   |   |   |   YT_views <= 7635400: J
+|   |   |   |   |   YT_views > 7635400
+|   |   |   |   |   |   RT_critic_score <= 8: L
+|   |   |   |   |   |   RT_critic_score > 8: I
+|   |   |   |   starpower > 41.1
+|   |   |   |   |   RT_audience_score <= 52
+|   |   |   |   |   |   YT_cmt_score <= 1.50943: J
+|   |   |   |   |   |   YT_cmt_score > 1.50943: K
+|   |   |   |   |   RT_audience_score > 52
+|   |   |   |   |   |   starpower <= 190.4
+|   |   |   |   |   |   |   starpower <= 77.4: K
+|   |   |   |   |   |   |   starpower > 77.4: E
+|   |   |   |   |   |   starpower > 190.4: I
+|   |   |   YT_cmt_score > 1.65132
+|   |   |   |   twitter_score <= 1.6
+|   |   |   |   |   starpower <= 103.2: L
+|   |   |   |   |   starpower > 103.2: G
+|   |   |   |   twitter_score > 1.6
+|   |   |   |   |   twitter_score <= 1.8184
+|   |   |   |   |   |   YT_views <= 7635400: H
+|   |   |   |   |   |   YT_views > 7635400: K
+|   |   |   |   |   twitter_score > 1.8184
+|   |   |   |   |   |   YT_likes <= 21252: E
+|   |   |   |   |   |   YT_likes > 21252
+|   |   |   |   |   |   |   YT_views <= 15491800
+|   |   |   |   |   |   |   |   RT_audience_cmt <= 2.35385: G
+|   |   |   |   |   |   |   |   RT_audience_cmt > 2.35385: H
+|   |   |   |   |   |   |   YT_views > 15491800: C
+|   |   starpower > 313.1
+|   |   |   YT_likes <= 84403
+|   |   |   |   RT_audience_score <= 61: J
+|   |   |   |   RT_audience_score > 61: F
+|   |   |   YT_likes > 84403: E
+
+Number of Leaves  : 42
+
+Size of Tree      : 83
