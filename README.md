@@ -5,7 +5,7 @@ This repository contains documents related to Augur. All the other repositories 
 
 Other files in this repository
 ====
-The other files in this repository are as follows. xyz contains the decision tree for the complete training set of 391 movies. Because of space constraints, the report itself contains a smaller decision tree.
+The other files in this repository are as follows. Classification Tree contains the decision tree for the complete training set of 391 movies. Because of space constraints, the report itself contains a smaller decision tree.
 
 Other repositories
 ====
